@@ -1,0 +1,18 @@
+section{
+    background-color: azure;
+    opacity: 1;
+
+}
+
+section{
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+}
+
+section{
+    margin: 10px;
+}
+
+section{
+    padding: 5px;
+}
