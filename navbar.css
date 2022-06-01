@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(53, 175, 184);
+  width: 100%;
+}
+
+li {
+    padding: 2% 4%;
+    background-color: rgb(53, 175, 184);
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+}
