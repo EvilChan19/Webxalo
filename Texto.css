@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(181, 255, 230);
+    
+}
+
 section{
     background-color: azure;
     opacity: 1;
@@ -14,5 +19,5 @@ section{
 }
 
 section{
-    padding: 5px;
+    padding: 10px;
 }
