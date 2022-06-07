@@ -16,8 +16,7 @@ section{
 
 section{
     margin: 10px;
-}
-
-section{
     padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
 }
