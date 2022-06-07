@@ -3,20 +3,22 @@
   <head>
     <title>Page Title</title>
     <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="TextoPreguntas.css" />
+    <link rel="stylesheet" href="Imagenes.css" />
+    <link rel="stylesheet" href="Texto.css" />
   </head>
+
   <body>
     <navbar>
-      <ul>
-        <li><a href="diario.html">Diario</a></li>
-        <li><a href="somos.html">¿Quienes Somos?</a></li>
-        <li><a href="Index.html">Inicio</a></li>
-        <li><a href="Preguntas.html">Preguntas y respuestas</a></li>
+      <ul class="navbardes">
+        <li class="nav"><a href="diario.html">Diario</a></li>
+        <li class="nav"><a href="somos.html">¿Quienes Somos?</a></li>
+        <li class="nav"><a href="Index.html">Inicio</a></li>
+        <li class="nav"><a href="Preguntas.html">Preguntas y respuestas</a></li>
       </ul>
     </navbar>
 
     <h1>Preguntas y respuestas</h1>
-    <section>
+    <section class="contenedores">
       <h2>
         ¿Cómo podemos acceder al AP desde un ordenador conectado físicamente o
         por Wifi? ¿Com podem canviar la IP per defecte de l’AP per una que es
@@ -32,38 +34,64 @@
       </p>
     </section>
 
-    <section>
+    <section class="contenedores">
       <h2>
         El AP puede tener 4 modos de funcionamiento, ¿cuáles son? ¿cómo actúan
         cada uno de ellos?
       </h2>
 
       <ul>
-        
-          <li>
-            Modo cliente: Se utiliza como un receptor y actúa como un cable de
-            reduniéndose a una red
-          </li>
-          
-          
-          <li>
-            Modo AP (punto de acceso) El Punto de acceso sirve de núcleo para la
-            instalación del cableado, de forma que los múltiples usuarios
-            acceden a la red por medio del punto de acceso.
-          </li>
-          
-          <li>
-            Modo Repetidor Este modo se puede utilizar para extender el señal de
-            forma que el punto de acceso amplifica el señal que recibe para
-            optimizar el rango de acción.
-          </li>
-          
-          <li>
-            Modo Bridge Este modo se hace para cubrir grandes distancias, como
-            dos edificios separados. Con dos puntos de acceso conectados entre
-            sí podemos conseguir una red WLAN a distancias considerables.
-          </li>
+        <li>
+          Modo cliente: Se utiliza como un receptor y actúa como un cable de
+          reduniéndose a una red
+        </li>
+
+        <li>
+          Modo AP (punto de acceso) El Punto de acceso sirve de núcleo para la
+          instalación del cableado, de forma que los múltiples usuarios acceden
+          a la red por medio del punto de acceso.
+        </li>
+
+        <li>
+          Modo Repetidor Este modo se puede utilizar para extender el señal de
+          forma que el punto de acceso amplifica el señal que recibe para
+          optimizar el rango de acción.
+        </li>
+
+        <li>
+          Modo Bridge Este modo se hace para cubrir grandes distancias, como dos
+          edificios separados. Con dos puntos de acceso conectados entre sí
+          podemos conseguir una red WLAN a distancias considerables.
+        </li>
       </ul>
     </section>
+
+    <section>
+      <h2>a) ¿Cómo crear nuevos SSID?</h2>
+      <h2>b) ¿Qué son los SSID?</h2>
+      <ul>
+        <li>a) Cambiar el nombre pero crear dependiendo</li>
+        <li>b) Es el nombre de la red</li>
+      </ul>
+    </section>
+
+
+    <section>
+      <h2>¿Cómo podemos establecer un sistema de seguridad por credenciales para acceder al SSID?</h2>
+      <li>En la pestaña de SSID hay una opcion para elegir si lo queremos poner en WEP, WPA o WPA2</li>
+    </section>
+
+
+    <section>
+      <h2>¿Qué modo de seguridad es el más recomendable, WEP, WPA o WPA2? ¿Por qué?</h2>
+      <li>Usariamos el WPA2, porque es la versión mejorada del WPA y WEP es el menos seguro de los 3.</li>
+    </section>
+
+
+    <section>
+      <h2>¿Se pueden crear diferentes VLAN? ¿Cómo?</h2>
+      <li>Dentro de la pestaña de vlan nos deja asignar un vlan para cada puerto vlan, al igual que nos deja crearlas dentro de la configuración.</li>
+    </section>
+
   </body>
 </html>
