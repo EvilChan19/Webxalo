@@ -20,3 +20,20 @@ section{
     font-size: 15px;
     font-family: sans-serif;
 }
+
+.morado{
+    background-color: rgb(237, 217, 255);
+}
+
+.verde{
+    background-color: rgb(208, 255, 137);
+}
+
+.naranja{
+    background-color: rgb(255, 215, 140);
+}
+
+.titulo_preguntas{
+    justify-content: center;
+    padding: auto;
+}
