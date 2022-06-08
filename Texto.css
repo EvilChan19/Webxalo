@@ -37,3 +37,10 @@ section{
     justify-content: center;
     padding: auto;
 }
+
+.who-text {
+    text-align: justify;
+    width: 40rem;
+    margin-top: 2rem;
+    text-indent: 2rem;
+}

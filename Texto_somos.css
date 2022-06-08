@@ -1,0 +1,31 @@
+.personas {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.persona {
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+
+.persona-img {
+    width: 10rem;
+    height: 16rem;
+    background-color: blueviolet;
+}
+
+.persona-name {
+    margin-top: 7px;
+    border-radius: 16px;
+    padding: .5rem .7rem;
+    font-style: italic;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.persona-description {
+    margin-top: 10px;
+}
