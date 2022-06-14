@@ -102,4 +102,8 @@
 
   .img_presup{
     border-image: round;
+    border-radius: 8px;
+    width: 1000px;
+    padding: 200px;
+    
   }
