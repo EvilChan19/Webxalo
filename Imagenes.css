@@ -99,3 +99,7 @@
       align-items: center;
   
   }
+
+  .img_presup{
+    border-image: round;
+  }
